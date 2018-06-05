@@ -1,1 +1,308 @@
 # Blockchain
+
+Reading: About this course
+Reading: Prerequisites
+Reading: Notes and resources
+Reading: What is blockchain?
+Video: The business backdrop
+Practice Quiz: Checkpoint
+Video: The problem area
+Practice Quiz: Checkpoint
+Video: Relation to Bitcoin
+Practice Quiz: Checkpoint
+Video: Requirements for a blockchain in a business environment
+Practice Quiz: Checkpoint
+Video: Requirements deep dive
+Practice Quiz: Checkpoint
+Discussion Prompt: Discussion prompt
+
+# Blockchain Course
+
+These are the [notes](https://gist.github.com/daqo/cb80cc8cc353145758ad588a01676293) taken on “IBM blockchain Essentials for Developers” course on Coursera [IBM Blockchain Foundation for Developers | Coursera](https://www.coursera.org/learn/ibm-blockchain-essentials-for-developers/).
+
+## Jargon 
+Ledger: the system of record for a business
+
+Transaction: an asset transfer onto or off the ledger
+
+Contract: conditions for transaction to occur
+
+Blockchain: a trusted distributed ledger with shared business processes
+
+## Bitcoin
+* An unregulated shadow currency
+* it has property of anonymity
+	* we don’t know who we are sending a bitcoin to
+	* we don’t know whom we are receiving a bitcoin from
+* it’s very compute resource intensive to make the bitcoin network work
+
+## Using blockchain for businesses is different from using it in bitcoin
+* we prioritize identity over anonymity
+* we prioritize selective endorsement over proof of work (we get to choose who in the network will validate a particular transaction - it’s more computationally efficient than bitcoin
+* we prioritize assets over cryptocurrencies
+
+## Requirements for blockchain for business
+* Shared ledger: append-only distributed system of record shared across business network
+* Privacy: ensuring appropriate visibility; transactions are secure, authenticated and verifiable
+* Smart Contracts: business terms embedded in transaction database and executed with transactions
+* Trust: transaction are endorsed by relevant participants
+
+### Going more in depth:
+
+##### Shared ledger
+* Shared between participants
+* Participants have their own copy thru replication
+* Permissioned: the participants only see appropriate transactions
+* THE shared system of record
+
+##### Smart Contract
+* Smart contract is the way of encoding and sharing the shared business process in blockchain.
+* you take the english contract and encode it in a programming language
+* they are verified
+* they are signed
+
+##### Privacy 
+* transactions need to be authenticated
+* participants need an identity not linked to a transaction
+* participants need appropriate confidentiality between subsets of participants
+* making sure that blockchain is tamper-proof
+
+##### Trust
+* selected members from business network endorse the transactions.
+* when transactions are endorsed they are added to the blockchain.
+* this gives us the concept of Verifiable Audit Trail
+	* transactions cannot be modified, inserted or deleted
+* The concept of trust is achieved via:
+	* consensus
+	* provenance
+	* immutability
+	* finality
+---
+Week 2
+
+Blockchain for business has several advantages:
+
+* Saves time: transaction time becomes instantenios
+* Reduces cost: removes overheads and cost intermediaries
+* Reduces risk: tampering, fraud and cyber crime
+* Increases trust: thru shared processes and record keeping
+
+Example: For example, for financial services network, a business network that runs on a blockchain can speed up transaction processes and audits. That in turn reduces costs and can lead to greater customer satisfaction. A business that runs a supply chain network can benefit from blockchain by reducing errors in shipments, have better tracking or materials, and reduce the risk of illicit tampering of records.
+
+Pop Quiz: 
+Q: A traditional, or nonblockchain, network is more vulnerable to tampering. What main component of a blockchain network reduces this risk?
+A: Distributed ledgers
+
+## Industry use cases
+#### Financial 
+* Trade finance
+* Cross currency payment
+* Mortgages
+#### Public Sector
+* Asset Registration
+* Citizen Identity
+* Medical Records
+* Medicine Supply Chain
+#### Retail
+* Supply Chain
+* Loyalty programs
+* Information Sharing (supplier - retailer)
+#### Insurance
+* Claims processing
+* Risk Provenance
+* Asset usage history
+* Claims file
+#### Manufacturing
+* Supply Chain
+* Product Part
+* Maintenance tracking
+
+If the business network in your use case doesn’t exist, the chances are it’s not a good candidate for blockchain implementation. We can render it with a more traditional technology. 
+
+There are four test words to find out whether the candidate is a good blockchain use case:
+* Consensus
+* Provenance
+* Immutability
+* Finality
+These four are key elements to achieve trust in blockchain.
+
+
+## Patterns for customer adoption
+Key to success: don’t try to boil the ocean, and don’t go for the big high powered, high fluted use case first. Look for something small and a room for improvement. 
+
+A hierarchy of different usages in listed below. As you move downward. It’s much easier to start with something on the compliance ledger and work your way up the stack than really trying to start higher.
+
+#### Compliance Ledger (easiest to implement)
+* Real-time view of compliance, audit & risk data
+* Provenance, immutability & finality are key
+* Transparent access to auditor & regulator
+#### Consortium Shared Ledger
+* Created by a small set of participants
+* Share key reference data
+* Consolidated, consistent real-time view
+#### Asset Exchange
+* Sharing of assets (voting, dividend notifications)
+* Assets are information, not financial
+* Provenance & finality are key
+#### High Value Market (hardest to implement)
+* Transfer of high value of financial assets
+* Between many participants in a market
+* Regulatory timeframes
+
+So customers need to go thru an awareness journey to understand what like smart contracts can do for their business, and how can they improve the operations in their network using blockchain. 
+
+
+## Key players for blockchain adoption
+#### Regulator
+* An organization who enforces the rule of play
+* like a national bank
+#### Industry Group
+* Often funded by members of a business network
+* Provide technical advice on industry trends
+* Encourages best practice by making recommendations to members
+#### Market Maker
+* The organization who innovates
+	* Creates a new good or service, and business process 
+	* Creates a new business process for an existing good or service
+
+We can start with any of the aforementioned players or even with a combination of them
+
+---
+Week 3
+
+## Summary
+IBM is a premier member of the Linux Foundation Hyperledger Project, which is an open source, collaborative effort that seeks to advance blockchain technologies. IBM also offers the IBM Blockchain Platform that can help you build and operate a complete business network. The Platform also provides tools to help you align the needs of developers and business leaders in your organization.
+Transferring assets is the heart of blockchain. How can people buy and sell or transfer goods in a business network without any central governing body or policy?  (Look at web demo) [Hyperledger Composer](http://composer-playground.mybluemix.net/)
+
+---
+Week 4
+
+## Hyperledger Composer
+* A suite of high level application abstractions for business networks
+* We model at the level of assets, participants and …
+* It enables a quick solution creation for us
+
+### Features
+* Model your business network, test and deploy
+* Applications use APIs to interact with a business network
+* Integrate existing systems of record using loopback/REST
+
+### Benefits
+* Increases understanding: bridges simply from business concepts to blockchain
+* Saves time: develop blockchain applications more quickly and cheaply
+* Reduces risk: well tested, efficient design conforms to best practice
+* Increases flexibility: Higher level abstraction makes it easier to iterate
+
+Hyperledger Fabric is like the operating system. Hyperledger Composer is like the API.
+
+### Conceptual Components and Structure
+Business network is defined by *Models*, *Script Files*, *ACLs* and *Metadata* and packaged in a *Business Network Archive*.
+
+#### Logic of business network is held in Script files
+When a transaction is submitted, the blockchain run time is going to find the script functions that are interested in that transaction and then run them. And those script functions can have side effects on assets that are being managed in asset registries.
+
+---
+
+Week 5
+
+## Components in a Blockchain
+Ledger: A ledger is a channel’s chain and current state data which is maintained by each peer on the channel
+
+Smart Contract: Software running on a ledger, to encode assets and the transactions instructions for modifying the assets
+
+Peer network: A broader term overarching the entire transactional flow, which serves to generate an agreement on the order and to confirm the correctness of the set of transactions constituting a block.
+
+Membership: membership services authenticates, authorizes and manages identities on a permissioned blockchain network
+
+Events: creates notifications of significant  operations on the blockchain (e.g. a new block), as well as notifications related to smart contracts
+
+Systems management: provides the ability to create, change and monitor blockchain components
+
+Wallet: Securely manages a user’s security credentials
+
+Systems Integration: Responsible for integrating blockchain bi-directionally with external systems. Not part of the blockchain
+
+
+## Blockchain developer
+Developers care about application and smart contracts.
+They don’t care about peers, consensus and security
+
+
+## Ledger’s data structure
+
+A ledger often consists of two data structures: blockchain and world state
+
+Blockchain is:
+* A linked list of blocks
+* Each block describes a set of transactions
+* Immutable - blocks cannot be tampered
+
+And also we have world’s state:
+What it does is to record the current state of all your assets. 
+
+World State is:
+* An ordinary database (e.g. key/value store)
+* Stores the combined outputs of all transactions
+* Not usually immutable
+
+## Consideration for the blockchain operator
+Operators’ interests are in the deployment and operation of part of the blockchain:
+* Peers
+* Consensus
+* Security
+
+They don’t care about development concerns, such as:
+
+* Application Code
+* Smart Contract Code
+* Events and Integration
+
+Examples: 
+* They make sure that peers are up to date. 
+* Making them work together in the way that they should. 
+* Ensuring that consensus is happening in the way that it should be taking place. 
+* What security methods do we need? 
+
+## How do we reach consensus
+Consensus is the process of maintaining a consistent ledger
+
+Consensus helps us to:
+* keep all peers up-to-date
+* fix any peers in error
+* quarantine all malicious nodes
+
+Some examples of consensus algorithms:
+
+* Proof of work
+* Proof of stake
+* Solo
+* Kafka/Zookeeper
+* Proof of elapsed time
+* PBFT-based (Hyperledger fabric uses this)
+
+## Public vs. Private blockchains
+
+Public: 
+	* For example Bitcoin
+	* Transactions are viewable by everyone
+	* Participant identity is almost impossible to infer
+Private: 
+	* For example Hyperledger Fabric
+	* Network members are known but transactions are secret
+
+## Architect consideration
+Architect should care about the following:
+* Performance
+	* amount of data being shared
+	* number and location of peers
+	* latency and throughput
+	* batching characteristics
+* Security 
+	* type of data being shared and with whom
+	* how is identity achieved
+	* confidentiality of transaction queries
+	* who verifies transactions
+Resiliency
+	* resource failure
+	* malicious activity
+	* no-determinism
