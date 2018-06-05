@@ -1,3 +1,22 @@
+# Blockain
+
+## References
+
+[Smart Contracts](https://blockgeeks.com/guides/smart-contracts/)
+[Solidity Documentation](https://solidity.readthedocs.org/en/latest/)  
+[Ethereum.org](https://www.ethereum.org/)  
+[Dapp Development Resources](https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources)
+
+From [Hackernoon](https://hackernoon.com/getting-started-with-smart-contracts-3085611c95de):
+
+[A 101 Noob Intro to Programming Smart Contracts on Ethereum](https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4)  
+[Getting Started as an Ethereum Web Developer](https://hackernoon.com/getting-started-as-an-ethereum-web-developer-9a2a4ab47baf)  
+[How to deploy the smart contract](https://medium.com/hci-wvu/hello-world-in-solidity-3e7d3e025831)
+[How to build your first Ðapp through web3.js](https://medium.com/hci-wvu/how-to-build-your-first-%C3%B0app-fe0c89d8f95f)  
+[A simple smart contract Web UI using web3.js](http://hypernephelist.com/2016/06/21/a-simple-smart-contract-ui-web3.html)  
+[Hyper-ledger Fabric and It’s purposes](https://medium.com/hci-wvu/hyper-ledger-fabric-and-its-purposes-c07d9973ad41)  
+[The ultimate Ethereum blockchain startup guide](https://hackernoon.com/an-entrepreneur-programmer-and-user-walk-into-a-smart-contract-the-ultimate-ethereum-blockchain-7b8dbd0c8463)
+
 # Blockchain Course
 
 These are the [notes](https://gist.github.com/daqo/cb80cc8cc353145758ad588a01676293) taken on “IBM blockchain Essentials for Developers” course on Coursera [IBM Blockchain Foundation for Developers | Coursera](https://www.coursera.org/learn/ibm-blockchain-essentials-for-developers/) by Ant Cole.
@@ -64,20 +83,21 @@ Blockchain: a trusted distributed ledger with shared business processes
 
 ## Videos
 
-Reading: About this course
-Reading: Prerequisites
-Reading: Notes and resources
-Reading: What is blockchain?
-Video: The business backdrop
-Practice Quiz: Checkpoint
-Video: The problem area
-Practice Quiz: Checkpoint
-Video: Relation to Bitcoin
-Practice Quiz: Checkpoint
-Video: Requirements for a blockchain in a business environment
-Practice Quiz: Checkpoint
-Video: Requirements deep dive
-Practice Quiz: Checkpoint
+Reading: About this course  
+Reading: Prerequisites  
+Reading: Notes and resources  
+Reading: What is blockchain?  
+Video: The business backdrop  
+Practice Quiz: Checkpoint  
+Video: The problem area  
+Practice Quiz: Checkpoint  
+Video: Relation to Bitcoin  
+Practice Quiz: Checkpoint  
+Video: Requirements for a blockchain in a business environment  
+Practice Quiz: Checkpoint  
+Video: Requirements deep dive  
+Practice Quiz: Checkpoint  
+
 Discussion Prompt: Discussion prompt
 ---
 Week 2
