@@ -1,24 +1,8 @@
-# Blockchain
-
-Reading: About this course
-Reading: Prerequisites
-Reading: Notes and resources
-Reading: What is blockchain?
-Video: The business backdrop
-Practice Quiz: Checkpoint
-Video: The problem area
-Practice Quiz: Checkpoint
-Video: Relation to Bitcoin
-Practice Quiz: Checkpoint
-Video: Requirements for a blockchain in a business environment
-Practice Quiz: Checkpoint
-Video: Requirements deep dive
-Practice Quiz: Checkpoint
-Discussion Prompt: Discussion prompt
-
 # Blockchain Course
 
 These are the [notes](https://gist.github.com/daqo/cb80cc8cc353145758ad588a01676293) taken on “IBM blockchain Essentials for Developers” course on Coursera [IBM Blockchain Foundation for Developers | Coursera](https://www.coursera.org/learn/ibm-blockchain-essentials-for-developers/).
+
+A similar course from Ant Cole is offered through [CognitiveClass.ai](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/info) and it is **free**.
 
 ## Jargon 
 Ledger: the system of record for a business
@@ -77,6 +61,24 @@ Blockchain: a trusted distributed ledger with shared business processes
 	* provenance
 	* immutability
 	* finality
+
+## Videos
+
+Reading: About this course
+Reading: Prerequisites
+Reading: Notes and resources
+Reading: What is blockchain?
+Video: The business backdrop
+Practice Quiz: Checkpoint
+Video: The problem area
+Practice Quiz: Checkpoint
+Video: Relation to Bitcoin
+Practice Quiz: Checkpoint
+Video: Requirements for a blockchain in a business environment
+Practice Quiz: Checkpoint
+Video: Requirements deep dive
+Practice Quiz: Checkpoint
+Discussion Prompt: Discussion prompt
 ---
 Week 2
 
