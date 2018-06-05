@@ -1,6 +1,6 @@
 # Blockchain Course
 
-These are the [notes](https://gist.github.com/daqo/cb80cc8cc353145758ad588a01676293) taken on “IBM blockchain Essentials for Developers” course on Coursera [IBM Blockchain Foundation for Developers | Coursera](https://www.coursera.org/learn/ibm-blockchain-essentials-for-developers/).
+These are the [notes](https://gist.github.com/daqo/cb80cc8cc353145758ad588a01676293) taken on “IBM blockchain Essentials for Developers” course on Coursera [IBM Blockchain Foundation for Developers | Coursera](https://www.coursera.org/learn/ibm-blockchain-essentials-for-developers/) by Ant Cole.
 
 A similar course from Ant Cole is offered through [CognitiveClass.ai](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/info) and it is **free**.
 
