@@ -15,8 +15,8 @@ From [Hackernoon](https://hackernoon.com/getting-started-with-smart-contracts-30
 [How to build your first Ðapp through web3.js](https://medium.com/hci-wvu/how-to-build-your-first-%C3%B0app-fe0c89d8f95f)  
 [A simple smart contract Web UI using web3.js](http://hypernephelist.com/2016/06/21/a-simple-smart-contract-ui-web3.html)  
 [Hyper-ledger Fabric and It’s purposes](https://medium.com/hci-wvu/hyper-ledger-fabric-and-its-purposes-c07d9973ad41)  
-[The ultimate Ethereum blockchain startup guide](https://hackernoon.com/an-entrepreneur-programmer-and-user-walk-into-a-smart-contract-the-ultimate-ethereum-blockchain-7b8dbd0c8463)
-[Ethereum vs HyperLedger](https://blockchaintrainingalliance.com/blogs/news/ethereum-vs-hyperledger)
+[The ultimate Ethereum blockchain startup guide](https://hackernoon.com/an-entrepreneur-programmer-and-user-walk-into-a-smart-contract-the-ultimate-ethereum-blockchain-7b8dbd0c8463)  
+[Ethereum vs HyperLedger](https://blockchaintrainingalliance.com/blogs/news/ethereum-vs-hyperledger)  
 
 # Blockchain Course
 
