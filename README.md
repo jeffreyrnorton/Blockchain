@@ -2,7 +2,6 @@
 
 ## References
 
-[Smart Contracts](https://blockgeeks.com/guides/smart-contracts/)
 [Solidity Documentation](https://solidity.readthedocs.org/en/latest/)  
 [Ethereum.org](https://www.ethereum.org/)  
 [Dapp Development Resources](https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources)
@@ -25,15 +24,26 @@ These are the [notes](https://gist.github.com/daqo/cb80cc8cc353145758ad588a01676
 A similar course from Ant Cole is offered through [CognitiveClass.ai](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/info) and it is **free**.
 
 ## Jargon 
-Ledger: the system of record for a business
+*Ledger*: the system of record for a business
 
-Transaction: an asset transfer onto or off the ledger
+*Transaction*: an asset transfer onto or off the ledger
 
-Contract: conditions for transaction to occur
+*Contract*: conditions for transaction to occur
 
-Blockchain: a trusted distributed ledger with shared business processes
+*Blockchain*: a trusted distributed ledger with shared business processes
+
+[What is Blockchain?](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/407a9f86565c44189740699636b4fb85/eeb5c3a61ee64258aedcb7865218ada2/)
+
+## Blockchain in Business
+
+[The Business Backdrop](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/407a9f86565c44189740699636b4fb85/12eab34ec218468995e4d06566ef4a32/)
+
+[The Problem Area](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/407a9f86565c44189740699636b4fb85/5954a0d4016a4346b83ff34bd5edef84/)
 
 ## Bitcoin
+
+[Blockchain relationship to Bitcoin](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/407a9f86565c44189740699636b4fb85/0bbe2601174649b78e44d5721ab666b7/)
+
 * An unregulated shadow currency
 * it has property of anonymity
 	* we don’t know who we are sending a bitcoin to
@@ -50,6 +60,8 @@ Blockchain: a trusted distributed ledger with shared business processes
 * Privacy: ensuring appropriate visibility; transactions are secure, authenticated and verifiable
 * Smart Contracts: business terms embedded in transaction database and executed with transactions
 * Trust: transaction are endorsed by relevant participants
+
+[Smart Contracts](https://blockgeeks.com/guides/smart-contracts/)
 
 ### Going more in depth:
 
