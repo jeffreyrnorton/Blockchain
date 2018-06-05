@@ -2,6 +2,8 @@
 
 ## References
 
+[Six Month Free Trial to IBMs Blockchain Platform](https://www.ibm.com/account/reg/us-en/signup?formid=urx-32737)
+
 [Solidity Documentation](https://solidity.readthedocs.org/en/latest/)  
 [Ethereum.org](https://www.ethereum.org/)  
 [Dapp Development Resources](https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources)
@@ -61,7 +63,9 @@ A similar course from Ant Cole is offered through [CognitiveClass.ai](https://co
 * Smart Contracts: business terms embedded in transaction database and executed with transactions
 * Trust: transaction are endorsed by relevant participants
 
-[Smart Contracts](https://blockgeeks.com/guides/smart-contracts/)
+[Requirements for a blockchain in a business environment](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/407a9f86565c44189740699636b4fb85/570a870ea5764dbf85ed5c91a915648e/)
+[Requirements Deep Dive](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/407a9f86565c44189740699636b4fb85/88647e58e1714e4385860469a3244460/)  
+[Smart Contracts](https://blockgeeks.com/guides/smart-contracts/)  
 
 ### Going more in depth:
 
@@ -94,30 +98,15 @@ A similar course from Ant Cole is offered through [CognitiveClass.ai](https://co
 	* immutability
 	* finality
 
-## Videos
-
-Reading: About this course  
-Reading: Prerequisites  
-Reading: Notes and resources  
-Reading: What is blockchain?  
-Video: The business backdrop  
-Practice Quiz: Checkpoint  
-Video: The problem area  
-Practice Quiz: Checkpoint  
-Video: Relation to Bitcoin  
-Practice Quiz: Checkpoint  
-Video: Requirements for a blockchain in a business environment  
-Practice Quiz: Checkpoint  
-Video: Requirements deep dive  
-Practice Quiz: Checkpoint  
-
 Discussion Prompt: Discussion prompt
 ---
 Week 2
 
 Blockchain for business has several advantages:
 
-* Saves time: transaction time becomes instantenios
+[Why is Blockchain Relevant for Business](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/76d637cbe8024e509dc445df847e6c3a/2d204ac4fa3143048a998da7e53702d7/)
+
+* Saves time: transacti)on time becomes instantenios
 * Reduces cost: removes overheads and cost intermediaries
 * Reduces risk: tampering, fraud and cyber crime
 * Increases trust: thru shared processes and record keeping
@@ -129,6 +118,9 @@ Q: A traditional, or nonblockchain, network is more vulnerable to tampering. Wha
 A: Distributed ledgers
 
 ## Industry use cases
+
+[Consensus: Shared Reference Data Example](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/76d637cbe8024e509dc445df847e6c3a/6c377c9edbc6442c8612bee3250e9639/)  
+
 #### Financial 
 * Trade finance
 * Cross currency payment
@@ -139,7 +131,7 @@ A: Distributed ledgers
 * Medical Records
 * Medicine Supply Chain
 #### Retail
-* Supply Chain
+* Supply Chain - [Provenance: Supply Chain Example](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/76d637cbe8024e509dc445df847e6c3a/87a6f38e1c6f407b86a1aabbb5e326c2/)
 * Loyalty programs
 * Information Sharing (supplier - retailer)
 #### Insurance
@@ -157,15 +149,19 @@ If the business network in your use case doesn’t exist, the chances are it’s
 There are four test words to find out whether the candidate is a good blockchain use case:
 * Consensus
 * Provenance
-* Immutability
-* Finality
+* Immutability - [Immutability: Audit and Compliance Example](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/76d637cbe8024e509dc445df847e6c3a/d5af8a2edda048bb9b256904e0ae9193/)
+* Finality - [Finality: Letter of Credit Example](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/76d637cbe8024e509dc445df847e6c3a/dd11d1805d744541a5dba3a0f8662968/)
+
 These four are key elements to achieve trust in blockchain.
 
+[Industry Use Cases](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/76d637cbe8024e509dc445df847e6c3a/23da3ac2218f4ea2b03e9393b47246dc/)
 
 ## Patterns for customer adoption
 Key to success: don’t try to boil the ocean, and don’t go for the big high powered, high fluted use case first. Look for something small and a room for improvement. 
 
 A hierarchy of different usages in listed below. As you move downward. It’s much easier to start with something on the compliance ledger and work your way up the stack than really trying to start higher.
+
+[Customer Adoption](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/76d637cbe8024e509dc445df847e6c3a/01e732ada7cd49cc9d4f185340a18987/)
 
 #### Compliance Ledger (easiest to implement)
 * Real-time view of compliance, audit & risk data
