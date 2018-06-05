@@ -203,7 +203,13 @@ Week 3
 
 ## Summary
 IBM is a premier member of the Linux Foundation Hyperledger Project, which is an open source, collaborative effort that seeks to advance blockchain technologies. IBM also offers the IBM Blockchain Platform that can help you build and operate a complete business network. The Platform also provides tools to help you align the needs of developers and business leaders in your organization.
-Transferring assets is the heart of blockchain. How can people buy and sell or transfer goods in a business network without any central governing body or policy?  (Look at web demo) [Hyperledger Composer](http://composer-playground.mybluemix.net/)
+Transferring assets is the heart of blockchain. How can people buy and sell or transfer goods in a business network without any central governing body or policy?
+
+[IBM and Hyperledger relationship: Blockchain for business](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/257066f41a4b4b50902428f1a22140bc/dab731f6903646a2a92476d9ba13ff07/)  
+[Hyperledger Composer](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/257066f41a4b4b50902428f1a22140bc/dab731f6903646a2a92476d9ba13ff07/)  
+[Hyperledger Composer - Web Demo](http://composer-playground.mybluemix.net/)  
+[Public References](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/257066f41a4b4b50902428f1a22140bc/62a03eeba0db47a7909aff50c47a7df8/)  
+[IBM Engagement Model](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/257066f41a4b4b50902428f1a22140bc/ea350253a1224626bbaf2332c3d25666/)  
 
 ---
 Week 4
