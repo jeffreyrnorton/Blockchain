@@ -1,24 +1,5 @@
 # Blockain
 
-## References
-
-[Six Month Free Trial to IBMs Blockchain Platform](https://www.ibm.com/account/reg/us-en/signup?formid=urx-32737)
-
-[Solidity Documentation](https://solidity.readthedocs.org/en/latest/)  
-[Ethereum.org](https://www.ethereum.org/)  
-[Dapp Development Resources](https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources)
-
-From [Hackernoon](https://hackernoon.com/getting-started-with-smart-contracts-3085611c95de):
-
-[A 101 Noob Intro to Programming Smart Contracts on Ethereum](https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4)  
-[Getting Started as an Ethereum Web Developer](https://hackernoon.com/getting-started-as-an-ethereum-web-developer-9a2a4ab47baf)  
-[How to deploy the smart contract](https://medium.com/hci-wvu/hello-world-in-solidity-3e7d3e025831)
-[How to build your first Ðapp through web3.js](https://medium.com/hci-wvu/how-to-build-your-first-%C3%B0app-fe0c89d8f95f)  
-[A simple smart contract Web UI using web3.js](http://hypernephelist.com/2016/06/21/a-simple-smart-contract-ui-web3.html)  
-[Hyper-ledger Fabric and It’s purposes](https://medium.com/hci-wvu/hyper-ledger-fabric-and-its-purposes-c07d9973ad41)  
-[The ultimate Ethereum blockchain startup guide](https://hackernoon.com/an-entrepreneur-programmer-and-user-walk-into-a-smart-contract-the-ultimate-ethereum-blockchain-7b8dbd0c8463)  
-[Ethereum vs HyperLedger](https://blockchaintrainingalliance.com/blogs/news/ethereum-vs-hyperledger)  
-
 # Blockchain Course
 
 These are the [notes](https://gist.github.com/daqo/cb80cc8cc353145758ad588a01676293) taken on “IBM blockchain Essentials for Developers” course on Coursera [IBM Blockchain Foundation for Developers | Coursera](https://www.coursera.org/learn/ibm-blockchain-essentials-for-developers/) by Ant Cole.
@@ -266,11 +247,16 @@ Wallet: Securely manages a user’s security credentials
 
 Systems Integration: Responsible for integrating blockchain bi-directionally with external systems. Not part of the blockchain
 
+[Components of a Blockchain solution](https://developer.ibm.com/courses/all/ibm-blockchain-foundation-developer/?course=begin#12011)  
+[Participants and Components overview](https://youtu.be/Ok21jeVuoL4)  
 
 ## Blockchain developer
 Developers care about application and smart contracts.
 They don’t care about peers, consensus and security
 
+[Considerations for a Blockchain Developer](https://youtu.be/1DeSWMejoBk)
+
+[Lab 2: Write your first blockchain application](https://developer.ibm.com/courses/all/ibm-blockchain-foundation-developer/?course=begin#12022)  
 
 ## Ledger’s data structure
 
@@ -289,7 +275,12 @@ World State is:
 * Stores the combined outputs of all transactions
 * Not usually immutable
 
+[Blockchain network architecture and consensus](https://developer.ibm.com/courses/all/ibm-blockchain-foundation-developer/?course=begin#12024)
+
 ## Consideration for the blockchain operator
+
+[Considerations for the Blockchain operator](https://youtu.be/8kRc2895uMY)
+
 Operators’ interests are in the deployment and operation of part of the blockchain:
 * Peers
 * Consensus
@@ -308,6 +299,7 @@ Examples:
 * What security methods do we need? 
 
 ## How do we reach consensus
+
 Consensus is the process of maintaining a consistent ledger
 
 Consensus helps us to:
@@ -324,7 +316,7 @@ Some examples of consensus algorithms:
 * Proof of elapsed time
 * PBFT-based (Hyperledger fabric uses this)
 
-## Public vs. Private blockchains
+## Public vs. Private Blockchains
 
 Public: 
 	* For example Bitcoin
@@ -333,6 +325,10 @@ Public:
 Private: 
 	* For example Hyperledger Fabric
 	* Network members are known but transactions are secret
+	
+[Public vs Private Blockchains](https://youtu.be/eS39tn5Cy20)
+
+[Network Consensus](https://youtu.be/DqtzxJP6Y9k)  
 
 ## Architect consideration
 Architect should care about the following:
@@ -350,3 +346,24 @@ Resiliency
 	* resource failure
 	* malicious activity
 	* no-determinism
+
+[Lab 3: Build your own network](https://developer.ibm.com/courses/all/ibm-blockchain-foundation-developer/?course=begin#12036)  
+
+# References
+
+[Six Month Free Trial to IBMs Blockchain Platform](https://www.ibm.com/account/reg/us-en/signup?formid=urx-32737)
+
+[Solidity Documentation](https://solidity.readthedocs.org/en/latest/)  
+[Ethereum.org](https://www.ethereum.org/)  
+[Dapp Development Resources](https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources)
+
+From [Hackernoon](https://hackernoon.com/getting-started-with-smart-contracts-3085611c95de):
+
+[A 101 Noob Intro to Programming Smart Contracts on Ethereum](https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4)  
+[Getting Started as an Ethereum Web Developer](https://hackernoon.com/getting-started-as-an-ethereum-web-developer-9a2a4ab47baf)  
+[How to deploy the smart contract](https://medium.com/hci-wvu/hello-world-in-solidity-3e7d3e025831)
+[How to build your first Ðapp through web3.js](https://medium.com/hci-wvu/how-to-build-your-first-%C3%B0app-fe0c89d8f95f)  
+[A simple smart contract Web UI using web3.js](http://hypernephelist.com/2016/06/21/a-simple-smart-contract-ui-web3.html)  
+[Hyper-ledger Fabric and It’s purposes](https://medium.com/hci-wvu/hyper-ledger-fabric-and-its-purposes-c07d9973ad41)  
+[The ultimate Ethereum blockchain startup guide](https://hackernoon.com/an-entrepreneur-programmer-and-user-walk-into-a-smart-contract-the-ultimate-ethereum-blockchain-7b8dbd0c8463)  
+[Ethereum vs HyperLedger](https://blockchaintrainingalliance.com/blogs/news/ethereum-vs-hyperledger)  
