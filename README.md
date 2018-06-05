@@ -25,6 +25,8 @@ These are the [notes](https://gist.github.com/daqo/cb80cc8cc353145758ad588a01676
 
 A similar course from Ant Cole is offered through [CognitiveClass.ai](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/info) and it is **free**.
 
+Also - [IBM Blockchain foundation developer](https://developer.ibm.com/courses/all/ibm-blockchain-foundation-developer/)
+
 ## Jargon 
 *Ledger*: the system of record for a business
 
@@ -154,7 +156,9 @@ There are four test words to find out whether the candidate is a good blockchain
 
 These four are key elements to achieve trust in blockchain.
 
-[Industry Use Cases](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/76d637cbe8024e509dc445df847e6c3a/23da3ac2218f4ea2b03e9393b47246dc/)
+[Industry Use Cases](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/76d637cbe8024e509dc445df847e6c3a/23da3ac2218f4ea2b03e9393b47246dc/)  
+[An Example Business Case: Car Auction Market](https://youtu.be/MgSKkrlLugQ)  
+[Hyperledger Toolset](https://youtu.be/FlXsQVoqgxQ)  
 
 ## Patterns for customer adoption
 Key to success: don’t try to boil the ocean, and don’t go for the big high powered, high fluted use case first. Look for something small and a room for improvement. 
@@ -207,7 +211,8 @@ Transferring assets is the heart of blockchain. How can people buy and sell or t
 
 [IBM and Hyperledger relationship: Blockchain for business](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/257066f41a4b4b50902428f1a22140bc/dab731f6903646a2a92476d9ba13ff07/)  
 [Hyperledger Composer](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/257066f41a4b4b50902428f1a22140bc/dab731f6903646a2a92476d9ba13ff07/)  
-[Hyperledger Composer - Web Demo](http://composer-playground.mybluemix.net/)  
+[What is Hyperledger Composer?](https://youtu.be/kI30R9iIUWs)  
+[Hyperledger Composer - Web Demo](http://composer-playground.mybluemix.net/) and [here](https://youtu.be/t5wZvmZGuAY)   
 [Public References](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/257066f41a4b4b50902428f1a22140bc/62a03eeba0db47a7909aff50c47a7df8/)  
 [IBM Engagement Model](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/courseware/257066f41a4b4b50902428f1a22140bc/ea350253a1224626bbaf2332c3d25666/)  
 
@@ -231,6 +236,8 @@ Week 4
 * Increases flexibility: Higher level abstraction makes it easier to iterate
 
 Hyperledger Fabric is like the operating system. Hyperledger Composer is like the API.
+
+[Lab 1: Create a Hyperledger Composer solution](https://developer.ibm.com/courses/all/ibm-blockchain-foundation-developer/?course=begin#12006)  
 
 ### Conceptual Components and Structure
 Business network is defined by *Models*, *Script Files*, *ACLs* and *Metadata* and packaged in a *Business Network Archive*.
